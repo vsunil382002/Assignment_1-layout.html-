@@ -1,0 +1,287 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffe18d;
+}
+
+/* Header styles */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Welcome section styles */
+#welcome {
+    margin: 50px 0;
+    background: url('background.jpeg') no-repeat center center;
+    background-size: cover;
+    color: #ffe18d;
+    padding: 100px 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); /* Adds a dark overlay */
+}
+
+#welcome h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#welcome p {
+    font-size: 1.2em;
+}
+
+/* Story section styles */
+#story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.story-content {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.story-content img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.story-text {
+    max-width: 500px;
+}
+
+.story-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.story-text p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-info, .social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* About section styles */
+#about {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+#about h1 {
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-info, .social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+#contact {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+#contact h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ec0000;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #162c19;
+}
+#coffee-menu {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ad0000;
+    padding-bottom: 20px;
+}
+
+.menu-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.menu-item .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #570606;
+}
+.name p{
+    font-size: 1.2em;
+    color: #ffe18d;
+}
